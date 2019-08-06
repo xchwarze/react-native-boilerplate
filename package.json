@@ -1,0 +1,36 @@
+{
+  "name": "ReactNativeBoilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@rematch/core": "^1.0.6",
+    "@rematch/persist": "^1.1.5",
+    "immutability-helper": "^2.8.1",
+    "prop-types": "^15.6.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-navigation": "^2.18.0",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "23.6.0",
+    "eslint": "^5.10.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.3.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.5",
+    "prettier-eslint": "^8.8.2",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
